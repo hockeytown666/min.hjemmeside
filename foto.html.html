@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotosiden</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .bilder {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .bilder img {
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            font-size: 18px;
+            color: #1e90ff;
+            background-color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mine Bilder</h1>
+
+    <div class="bilder">
+        <img src="bilde1.jpg" alt="Bilde 1">
+        <img src="bilde2.jpg" alt="Bilde 2">
+        <img src="bilde3.jpg" alt="Bilde 3">
+    </div>
+
+    <a href="index.html" class="button">Tilbake til Hjem</a>
+</body>
+</html>
